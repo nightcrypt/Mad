@@ -1,0 +1,64 @@
+#include <stdio.h>
+char board[3][3];
+int i,j;
+void printboard(char  board[3][3])
+{
+  for(i=0;i<3;i++)
+  {
+    for(j=0;j<3;j++)
+     {
+      printf(" %c ",board[i][j]);
+       if(j<2) printf(" | ");
+       }
+       printf("\n");
+       if (i<2) printf("------------\n");
+   }
+}
+int checkWin(char board[3][3], char player) {
+    for (int i = 0; i < 3; i++) {
+        if ((board[i][0] == player && board[i][1] == player && board[i][2] == player) || 
+            (board[0][i] == player && board[1][i] == player && board[2][i] == player) || 
+            (board[0][0] == player && board[1][1] == player && board[2][2] == player) || 
+            (board[0][2] == player && board[1][1] == player && board[2][0] == player)) 
+        {
+            return 1;
+        }
+    }
+    return 0;
+}
+
+int main(){
+int player =1;
+int moves=0;
+int row , column;
+printf("\n~~ Welcome to the of Tic tac toe ~~\n");
+do{
+    printboard(board);
+    player=(moves%2==0)?1:2;
+    printf("\nplayer %d Enter the number of Row and column for input : \n",player);
+    scanf("%d%d",&row,&column);
+    if(row<0||row>2||column<0||column>2||board[row][column]=='X'||board[row][column]=='O')
+    {
+     printf("\ninvalid command\n");
+      continue ;
+      }
+      board[row][column]=(player ==1)? 'X':'O';
+      moves++;
+     if (checkWin(board, 'X')) {
+            printboard(board);
+            printf("\nPlayer 1 (X) wins!\n");
+            break;
+        } else if (checkWin(board, 'O')) {
+            printboard(board);
+            printf("\nPlayer 2 (O) wins!\n");
+            break;
+        }
+        if (moves == 9) {
+            printboard(board);
+            printf("\nThe game is a draw!\n");
+            break;
+        }
+    } while (1);
+    
+return 0;
+}

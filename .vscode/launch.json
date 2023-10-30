@@ -1,0 +1,190 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "EmployeeManagment",
+            "request": "launch",
+            "mainClass": "Projects.EmployeeManagment.EmployeeManagment",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        },
+        {
+            "type": "java",
+            "name": "B",
+            "request": "launch",
+            "mainClass": "FileHandling.B",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        },
+        {
+            "type": "java",
+            "name": "Multi2",
+            "request": "launch",
+            "mainClass": "Multithreading.Multi2",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        },
+        {
+            "type": "java",
+            "name": "B",
+            "request": "launch",
+            "mainClass": "Multithreading.B",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        },
+        {
+            "type": "java",
+            "name": "OnlineExam",
+            "request": "launch",
+            "mainClass": "Projects.OnlineExam.OnlineExam",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        },
+        {
+            "type": "java",
+            "name": "OnlineTest",
+            "request": "launch",
+            "mainClass": "Projects.OnlineExam.OnlineTest",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        },
+        {
+            "type": "java",
+            "name": "AEvent",
+            "request": "launch",
+            "mainClass": "swingandbutton.AEvent",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        },
+        {
+            "type": "java",
+            "name": "button",
+            "request": "launch",
+            "mainClass": "swingandbutton.button",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        },
+        {
+            "type": "java",
+            "name": "tryCatch",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.tryCatch",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        },
+        {
+            "type": "java",
+            "name": "pattern4",
+            "request": "launch",
+            "mainClass": "Pattern.pattern4",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        },
+        {
+            "type": "java",
+            "name": "pattern3",
+            "request": "launch",
+            "mainClass": "Pattern.pattern3",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        },
+        {
+            "type": "java",
+            "name": "pattern2",
+            "request": "launch",
+            "mainClass": "Pattern.pattern2",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        },
+        {
+            "type": "java",
+            "name": "pattern1",
+            "request": "launch",
+            "mainClass": "Pattern.pattern1",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        },
+        {
+            "type": "java",
+            "name": "spiralPattern",
+            "request": "launch",
+            "mainClass": "Pattern.spiralPattern",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        },
+        {
+            "type": "java",
+            "name": "SprialPatternExample3",
+            "request": "launch",
+            "mainClass": "Pattern.SprialPatternExample3",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        },
+        {
+            "type": "java",
+            "name": "SpiralPattern",
+            "request": "launch",
+            "mainClass": "Pattern.SpiralPattern",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch",
+            "request": "launch",
+            "mainClass": "Sort.LinearSearch",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        },
+        {
+            "type": "java",
+            "name": "SortingBySort",
+            "request": "launch",
+            "mainClass": "Sort.SortingBySort",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        },
+        {
+            "type": "java",
+            "name": "sumOfArray",
+            "request": "launch",
+            "mainClass": "Array.sumOfArray",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        },
+        {
+            "type": "java",
+            "name": "Number",
+            "request": "launch",
+            "mainClass": "Array.Number",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        },
+        {
+            "type": "java",
+            "name": "fibonnaciNo",
+            "request": "launch",
+            "mainClass": "NumberProject.fibonnaciNo",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        },
+        {
+            "type": "java",
+            "name": "neonNo",
+            "request": "launch",
+            "mainClass": "NumberProject.neonNo",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        },
+        {
+            "type": "java",
+            "name": "fibonnaciNo",
+            "request": "launch",
+            "mainClass": "fibonnaciNo",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        },
+        {
+            "type": "java",
+            "name": "add",
+            "request": "launch",
+            "mainClass": "add",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "Coding by mohit bishnoi_b37b54b9"
+        }
+    ]
+}
