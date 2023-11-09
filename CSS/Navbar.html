@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                background-color: black;
+                overflow: hidden;
+                border-bottom: 5px solid orange;
+                position: fixed;
+                top: 0;
+                width: 100%;
+
+            }
+            li
+            {
+                display: inline;
+                float: left;
+            }
+            li a ,.dbutton
+            {
+                display: block;
+                color: white;
+                font-family: cursive;
+                text-align: center;
+                font-size: 30px;
+                padding: 14px 18px;
+                text-decoration: none;
+                border-right: 2px solid white;
+            }
+            li a:hover ,.dropmenu:hover
+            {
+                background-color: grey;
+            }
+            body
+            {
+                background-image: url('/home/nightcrypt29/Image for ppt/cerulean-blue-curve-frame-template/rm222batch3-mind-03.jpg');
+                background-size: cover;
+            }
+            .p1
+            {
+                padding: 100px;
+                border: 5px solid rgb(197, 87, 54);
+                background-color: rgb(173, 173, 241);
+                border-style: dotted;
+                margin-top: 100px;
+                border-radius: 30%;
+            }
+            .p2
+            {
+                padding: 100px;
+                border: 5px solid red;
+                background-color: rgb(140, 184, 169);
+                border-style:dashed;
+                margin-top:100px;
+                border-top-right-radius:   100px;
+                border-top-left-radius:    100px;
+                border-bottom-left-radius: 100px;
+                border-bottom-right-radius:100px;
+            }
+            .p3
+            {
+                padding: 100px;
+                border: 5px solid black;
+                background-color: rgb(165, 173, 148);
+                border-style:calc(15px);
+                margin-top: 100px;
+                border-radius: 50%;
+            }
+            .dropmenu
+            {
+                display: inline-block;
+            }
+            .drop-content
+            {
+                display: none;
+            }
+        </style>
+        <title>
+            Navigation Bar
+        </title>
+    </head>
+    <body>
+        <ul>
+            <li><a  href="#home" >Home</a></li>
+            <li><a  href="/home/nightcrypt29/All Coding Data of Mohit Bishnoi/HTML/newWebsite.html" >Website</a></li>
+            <li><a  href="#login" >Login</a></li>
+            <li class ="dropmenu"><a  href="#service" class ="dbutton">Service
+                <div class ="drop-content">
+                    <a href="#hello" >Hello</a>
+                    <a href="#stupid" >stupid</a>
+                    <a href="#world" >world</a>
+                </div>
+            </a></li>
+            <li><a  href="#product" >Product</a></li>
+            <li><a  href="#contact" >Conatct</a></li>
+            <li><a  href="#about" >About</a></li>
+        </ul>
+        <div class ="p1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aspernatur ipsum eos quisquam dicta, autem pariatur adipisci dolor omnis necessitatibus repellat nisi molestiae voluptates minus, atque repudiandae. Quia, atque obcaecati.</p>
+        </div>
+        <div class="p2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aspernatur ipsum eos quisquam dicta, autem pariatur adipisci dolor omnis necessitatibus repellat nisi molestiae voluptates minus, atque repudiandae. Quia, atque obcaecati.</p>
+        </div>
+        <div class ="p3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aspernatur ipsum eos quisquam dicta, autem pariatur adipisci dolor omnis necessitatibus repellat nisi molestiae voluptates minus, atque repudiandae. Quia, atque obcaecati.</p>
+        </div>
+    </body>
+</html>

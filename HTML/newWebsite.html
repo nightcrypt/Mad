@@ -7,6 +7,60 @@
                 background-image: url('/home/nightcrypt29/Image for ppt/cerulean-blue-curve-frame-template/rm222batch3-mind-03.jpg');
                 background-size: cover;
             }
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                background-color: black;
+                overflow: hidden;
+                border-bottom: 5px solid orange;
+                position: fixed;
+                top: 0;
+                width: 100%;
+
+            }
+            li
+            {
+                display: inline;
+                float: left;
+            }
+            .ul
+            {
+                display: block;
+                color: white;
+                font-family: cursive;
+                text-align: center;
+                font-size: 30px;
+                padding: 14px 18px;
+                text-decoration: none;
+                border-right: 2px solid white;
+            }
+            li a:hover
+            {
+                background-color: grey;
+            }
+            .ol
+            {
+                padding: 10px;
+                margin-right: 10px;
+                background-color: rgb(113, 170, 118);
+                border: 5px solid rgb(101, 101, 172);
+                border-right: none;
+                border-left: none;
+                border-top-right-radius: 100px;
+                border-top-left-radius: 100px;
+                border-bottom-left-radius: 100px;
+                border-bottom-right-radius: 100px;
+                text-decoration: none;
+            }
+            .ol1
+            {
+                border-right: none;
+            }
+            .active
+            {
+                background-color: rgb(110, 235, 110);
+            }
 
         </style>
         <title>
@@ -15,10 +69,19 @@
     </head>
     <body>
         <h1>All Program List </h1>
-        <ol type="1">
-            <li><a href="file:///home/nightcrypt29/Coding%20by%20mohit%20bishnoi/HTML/calander.html" target="_blank">Calander</a></li>
-            <li><a href="file:///home/nightcrypt29/Coding%20by%20mohit%20bishnoi/HTML/BasicOrderList.html" target="_blank">Basic order List</a></li>
-            <li><a href="file:///home/nightcrypt29/Coding%20by%20mohit%20bishnoi/HTML/timeTable.html" target="_blank">Time Table</a></li>
+        <ul>
+            <li><a class ="ul"  href="#home" >Home</a></li>
+            <li><a class ="ul"  class ="active" href="/home/nightcrypt29/All Coding Data of Mohit Bishnoi/HTML/newWebsite.html" >Website</a></li>
+            <li><a class ="ul" href="#login" >Login</a></li>
+            <li><a class ="ul" href="#service" >Service</a></li>
+            <li><a class ="ul" href="#product" >Product</a></li>
+            <li><a class ="ul" href="#contact" >Conatct</a></li>
+            <li><a class ="ul" href="#about" >About</a></li>
+        </ul>
+        <ol type="1" class ="ol1">
+            <li class="ol"><a href="file:///home/nightcrypt29/Coding%20by%20mohit%20bishnoi/HTML/calander.html" target="_blank">Calander</a></li>
+            <li class="ol" ><a href="file:///home/nightcrypt29/Coding%20by%20mohit%20bishnoi/HTML/BasicOrderList.html" target="_blank">Basic order List</a></li>
+            <li class="ol" ><a href="file:///home/nightcrypt29/Coding%20by%20mohit%20bishnoi/HTML/timeTable.html" target="_blank">Time Table</a></li>
 
         </ol>
     </body>
