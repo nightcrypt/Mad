@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .box-1
+        {
+            text-align: center;
+            line-height: 5;
+            font-size: 34px;
+            font-weight: 600;
+            border: 2px solid #2e2e2e;
+            background-color: #512da8;
+            color: #e2e2e2;
+            border-radius: 20px;
+            margin: 20vh 2vh;
+            height: 20vh;
+            width: 10%;
+            animation: rotate  8s ease-in-out infinite;            
+        }
+
+        /* @keyframes rotate
+        {
+            0%
+            {
+                background-color: #512da8;
+                left: 0px;
+                top: 0px;
+            }
+            25%
+            {
+                background-color: #6041aa;
+                left: 200px;
+                top: 0px;
+                
+            }
+            50%
+            {
+                background-color: #6f5b9e;
+                left: 200px;
+                top: 200px;
+            }
+            75%
+            {
+                background-color: #8f899b;
+                left: 0px;
+                top: 200px;
+            }
+            1000%
+            {
+                background-color: #9a9a9b;
+                left: 0px;
+                top: 0px;
+            }            
+            
+        } */
+
+        .box-1:hover
+        {
+            transform: translateY(-15px);
+            transition: all .3s ease-in 0s ;
+            border-color: #512da8;
+            background-color: #2e2e2e;
+            color: #e2e2e2;
+            box-shadow: 0 8px 8px 3px red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box-1"> Box-1</div>
+    
+</body>
+</html>

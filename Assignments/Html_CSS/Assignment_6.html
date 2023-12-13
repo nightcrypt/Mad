@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid layout</title>
+    <style>
+        .container
+        {
+            display: grid;
+            gap: 10px;
+            padding: 100px;
+            grid-template-columns: 20% 20% 20% 20% 20%;
+            grid-template-rows: 33% 33% 33%;
+            background-color: #d87474;
+            border: 5px rgb(0, 247, 255);
+            margin: 100px;
+            height: 500px;
+            width: 1000px;
+
+        }
+        .item
+        {
+            border: 2px solid rgb(27, 25, 25);
+            color: rgb(243, 13, 13);
+            background-color: #ddd;
+            max-height: 100%;
+            max-width: 100%;        
+            font-size: 24px;
+            text-align: center;
+            font-weight: 100;
+            line-height: 3;
+        }
+        .item-1
+        {
+            grid-column: 1/6;
+        }
+        .item-2
+        {
+            grid-row: 2/4;
+        }
+        .item-3
+        {
+            grid-column: 2/5;
+        }
+        .item-5
+        {
+            grid-column: 5/6;
+        }
+        .item-4
+        {
+            grid-column: 2/6;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item-1">Header</div>
+        <div class="item item-2">Menu</div>
+        <div class="item item-3">Main</div>
+        <div class="item item-5">Right</div>
+        <div class="item item-4">Footer</div>
+
+        
+
+    </div>
+    
+</body>
+</html>

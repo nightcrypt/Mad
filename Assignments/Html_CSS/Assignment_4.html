@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        body
+        {
+            background-color: orange;
+        }
+        .road
+        {
+            border-bottom: 10px dotted black;
+        }
+        .man
+        {
+            background-image: url(WalkingGirl.png);
+            width: 500px;
+            height: 616px;
+            animation: walk 1s steps(4) infinite ,
+                       forward 5s linear infinite;
+        }
+        @keyframes walk 
+        {
+            0%
+            {
+                background-position: 000px;
+            }
+            100%
+            {
+                background-position: 2000px;
+            }
+        }
+        @keyframes forward
+        {
+            0%
+            {
+                transform: translateX(2320px);
+            }
+            100%
+            {
+                transform: translateX(-120px);
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="man"></div>
+    <div class="road"></div>
+    
+</body>
+</html>

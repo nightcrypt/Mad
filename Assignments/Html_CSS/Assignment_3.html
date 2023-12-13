@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main
+        {
+            border: 5px rgb(216, 50, 50);
+            background-color: black;
+            color: white;
+            box-shadow: 20ch red;
+        }
+        .tooltip
+        {
+            position: relative;
+            border: 5px rgb(255, 255, 255);
+            display: inline-block;
+            cursor: pointer;
+            margin: 100px;
+            padding : 50px;
+            
+        }
+        #tooltip-cont1
+        {
+            visibility: hidden;
+            border :1px black;
+            color: rgb(255, 0, 0);
+            background-color: rgb(255, 255, 255);
+            width: 30px;
+            margin: auto;
+            padding : 20px,5px;
+
+        }
+        .tooltip #tooltip-cont2
+        {
+            visibility: hidden;
+            border :1px black;
+            color: rgb(255, 0, 0);
+            background-color: rgb(255, 255, 255);
+            width: 30px;
+            margin: auto;
+            padding : 10px,1px;
+            top :-10px;
+            right :105%;
+
+        }
+        #tooltip-cont3
+        {
+            visibility: hidden;
+            border :1px black;
+            color: rgb(255, 0, 0);
+            background-color: rgb(255, 255, 255);
+            width: 30px;
+            margin: auto;
+            padding : 20px,5px;
+
+        }
+        #tooltip-cont4
+        {
+            visibility: hidden;
+            border :1px black;
+            color: rgb(255, 0, 0);
+            background-color: rgb(255, 255, 255);
+            width: 30px;
+            margin: auto;
+            padding : 20px,5px;
+
+        }
+        .tooltip:hover #tooltip-cont1  
+        {
+            visibility: visible;
+        }
+        .tooltip:hover #tooltip-cont2  
+        {
+            visibility: visible;
+        }
+        .tooltip:hover #tooltip-cont3
+        {
+            visibility: visible;
+        }
+        .tooltip:hover #tooltip-cont4 
+        {
+            visibility: visible;
+        }
+
+    </style>
+</head>
+<body>
+    <div class ="main">
+        <div class ="tooltip"> Box 1
+            <span id ="tooltip-cont1">Hello World!!</span> </div>
+         <div class ="tooltip"> Box 2
+             <span id ="tooltip-cont2">Hello World!!</span> </div>
+         <div class ="tooltip"> Box 3
+             <span id ="tooltip-cont3">Hello World!!</span> </div>
+         <div class ="tooltip"> Box4
+              <span id ="tooltip-cont4" >Hello World!!</span> </div>
+         
+    </div>
+</body>
+</html>

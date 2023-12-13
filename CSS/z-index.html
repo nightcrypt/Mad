@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index Hover</title>
+    <style>
+        .main1
+        {
+            position: relative;
+        }
+        .main2
+        {
+            position: relative;
+            z-index: 2;
+            border: 2px solid black;
+            height: 80px;
+            margin: 50px;
+            top: 10;
+            text-align: center;
+        }
+        .main3
+        {
+            position: absolute;
+            z-index: 1;
+            background: lightgray;
+            height: 60px;
+            width: 70%;
+            left: 50px;
+            top: 50px;
+            text-align: center;
+        }
+        .main4
+        {
+            position: absolute;
+            z-index: 3;
+            background: rgb(197, 119, 46);
+            width: 35%;
+            left: 270px;
+            top: 20px;
+            height: 100px;
+            text-align: center;
+        }
+        .main2:hover 
+        {
+            z-index: 6;
+            color: white;
+            background-color: rgb(70, 70, 67);
+            
+        }
+        .main3:hover 
+        {
+            z-index: 6;
+            color: white;
+            background-color: rgb(70, 70, 67);
+            
+        }
+        .main4:hover 
+        {
+            z-index: 6;
+            color: white;
+            background-color: rgb(70, 70, 67);
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="main1">
+        <div class="main2">1st box</div>
+        <div class="main3">2st box </div>
+        <div class="main4">3st box </div>
+    </div>
+    
+</body>
+</html>
