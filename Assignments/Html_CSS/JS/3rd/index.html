@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3rd task</title>
+    <style>
+        /* *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        } */
+        body
+        {
+            background: linear-gradient(to right ,#654ea3,#eaafc8);
+
+           
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50vh;
+            height: 50vh;
+            margin: 30vh;
+            gap: 20px;
+            border: 2px solid grey;
+         
+        }
+        .buttons
+        {
+            align-items: center;
+            justify-content: center;
+        }
+        input
+        {
+            width: 30vh;
+            height: 3vh;
+        }
+        button
+        {
+            padding: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <h1> Basic Form</h1>
+        <form onsubmit="returnName()">
+            <input type="text" id="demo">
+            <div class="buttons">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

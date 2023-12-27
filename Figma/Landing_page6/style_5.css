@@ -89,6 +89,7 @@ body
 
 .header-button-1:hover
 {
+    cursor: pointer;
     transform: translateY(-15px);
     transition: all .25s ease-in .1s ;
     border-color: #512da8;
@@ -133,6 +134,8 @@ body
     background-color: #2e2e2e;
     color: #e2e2e2;
     box-shadow: 0 8px 8px 3px rgb(34, 84, 112);
+    cursor: pointer;
+
 }
 
 .header-button-2 > p 
@@ -275,6 +278,8 @@ body
     background-color: #2e2e2e;
     color: #e2e2e2;
     box-shadow: 0 8px 8px 3px rgba(112, 111, 111,.5);
+    cursor: pointer;
+
 }
 
 .field-button-1
@@ -758,7 +763,7 @@ color: #fff;
     align-self: stretch;
 
 /* Heading/2 */
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-size: 56px;
 font-style: normal;
 font-weight: 800;
@@ -780,7 +785,7 @@ line-height: 160%; /* 28.8px */
     
  background-color: #fff;
 /* Button/M */
-font-family: Roboto;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 500;
@@ -834,7 +839,7 @@ align-self: stretch;
 text-align: center;
 
 /* Heading/2 */
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-size: 56px;
 font-style: normal;
 font-weight: 800;
@@ -849,7 +854,7 @@ align-self: stretch;
 text-align: center;
 
 /* Body/L */
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
@@ -878,6 +883,8 @@ line-height: 160%; /* 28.8px */
     background-color: #2e2e2e;
     color: #e2e2e2;
     box-shadow: 0 8px 8px 3px red;
+    cursor: pointer;
+
 }
 
 .button-6-1
@@ -938,7 +945,7 @@ gap: 10px;
     color: var(--blue-gray-600, #475569);
 
 /* Body/M */
-font-family: Roboto;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
