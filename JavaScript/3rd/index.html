@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Intrest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Intrest Calculator</h1>
+        <label for="principle">Principle (Rs.)</label>
+
+        <Input type="number" placeholder="Principle" id="principle">
+
+        <label for="rate">Rate in %</label>
+
+        <Input type="number" placeholder="Rate" id="rate">
+
+        <label for="time">Time</label>
+
+        <Input type="number" placeholder="Time" id="time">
+
+        <button type="submit" onclick="answer()">Calculate</button>
+
+        <p>Principle Amount : <span id="principle_1"></span></p>
+
+        <p>Calculated Intrest : <span id="calInt"></span></p>
+
+        <p>Total Amount : <span id="Total"></span></p>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

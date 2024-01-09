@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Rubik+Doodle+Shadow&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Rubik+Doodle+Shadow&family=Rubik+Glitch&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 82, 33);
+}
+
+h1
+{
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    font-size: 70px;
+    margin: 5vh;
+}
+
+h4
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+#catImage
+{
+    border-radius: 25px;
+    max-width: 30em;
+
+}
+
+blockquote
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    color: rgb(250, 251, 251);
+    -webkit-text-stroke: 1px rgb(252, 251, 251);
+    text-shadow: 2px 2px black;
+    margin: -80px 0 100px 0;
+    text-align: center;
+}
+
+blockquote::before{content: '"';}
+blockquote::after{content: '"';}
+
+
+.partyBlock
+{
+    margin: 25px;
+    display: flex;
+    gap: 25px;
+
+}
+label
+{
+    font-family: 'Rubik Glitch', system-ui;
+    font-size: 30px;
+    text-align: center;
+}
+
+select
+{
+    padding: 10px;
+    border-radius: 25px;
+    align-self: baseline;
+}
+
+button
+{
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    margin: 0 100px ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    border-radius: 20px;
+    opacity: .6;
+    background: black;
+    color: white;
+}
+
+button:hover
+{
+    background-color: white;
+    color: black;
+}
+
+button:active
+{
+    background-color: aqua;
+    color: black;
+}
